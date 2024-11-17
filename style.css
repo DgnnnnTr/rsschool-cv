@@ -1,3 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    padding: 1rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-photo {
+    width: 290px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.header-text h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #00796b;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #26a69a;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info li {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #00796b;
+    border-bottom: 3px solid #80cbc4;
+    padding-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 14px;
+    color: #333;
+}
+
+.project a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+code {
+    font-size: 14px;
+}
+
+.language b, .education-item h3, .project h3 {
+    font-size: 18px;
+    color: #00897b;
+}
+
+.language p, .education-item p, .project p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+h6 {
+    text-align: center;
+    font-size: 12px;
+    color: #00897b;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.rsschool-link {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background: url(rs-school-logo.svg) center center no-repeat;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+
+.github-link {
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    background: url(icon-github.svg) center center no-repeat;
+    background-size: cover;
 }
