@@ -114,7 +114,7 @@ footer ul {
     display: inline-block;
     width: 80px;
     height: 30px;
-    background: url(rs-school-logo.svg) center center no-repeat;
+    background: url(images/rs-school-logo.svg) center center no-repeat;
     background-size: cover;
     margin-right: 0.5rem;
 }
@@ -123,6 +123,6 @@ footer ul {
     display: inline-block;
     width: 25px;
     height: 30px;
-    background: url(icon-github.svg) center center no-repeat;
+    background: url(images/icon-github.svg) center center no-repeat;
     background-size: cover;
 }
